@@ -2,7 +2,7 @@
 Adjusting the crawler for different domains will always require
 an understanding of the html structure of the new domain. At the
 very least, the amazonCrawler.js and productScraper.js scripts 
-provide a framework to build in while working with a new domain.
+provide a framework to build on while working with a new domain.
 
 amazonCrawler.js would require adjustments to the startCrawl() 
 function in order to reach the proper category page of the new 
@@ -11,17 +11,17 @@ some tweaking dependent on how the links on that category page
 are structured. 
 
 productScraper.js is heavily dependent on the html of the domain
-that products are being gathered from. As of now, Each feature of
+that products are being gathered from. As of now, each feature of
 each product that needs to be gathered is specifically pulled from the 
 html of the product's source page. However, the overall functionality
 of productScraper.js should be easy to replicate, and the product objects 
-it creates can be adjusted without affecting how the productScraper.js 
+it creates can be adjusted without affecting how productScraper.js 
 interacts with the amazonCrawler.js.
 
 pageGrabber.js should already work with any page on any domain.
 
 - - - 2. Products Beyond Books - - -
-Adjusting to gather different kinds of books should be easier than
+Adjusting to gather different kinds of products should be easier than
 switching to different domains. 
 
 amazonCrawler.js features a "productType" variable. While focusing
