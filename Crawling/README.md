@@ -1,3 +1,12 @@
+## Running This Solution
+
+To use this solution to the Crawling exercise, run the amazonCrawler.js script using Node.js. Node.js must be installed on the computer used to run this solution.
+The necessary cmd line is: ...\DataFizz\Crawling>node amazonCrawler.js
+
+If the .js files need to be moved to a different location, ensure that the package.json file is placed alongside them and install the necessary modules using npm. 
+The necessary cmd line for installation is: ...\DataFizz\Crawling>npm install
+
+
 # Crawling
 
 ## Purpose
